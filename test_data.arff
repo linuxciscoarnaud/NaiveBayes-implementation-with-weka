@@ -1,0 +1,13 @@
+@relation play_golf_or_not
+
+@attribute outlook string
+@attribute temperature string
+@attribute humidity string
+@attribute windy string
+@attribute class {yes,no}
+
+@data
+sunny,cool,hight,true,?
+
+
+

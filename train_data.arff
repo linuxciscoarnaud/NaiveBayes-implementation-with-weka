@@ -1,0 +1,25 @@
+@relation play_golf_or_not
+
+@attribute outlook string
+@attribute temperature string
+@attribute humidity string
+@attribute windy string
+@attribute class {yes,no}
+
+@data
+sunny,hot,hight,false,no
+sunny,hot,hight,true,no
+overcast,hot,hight,false,yes
+rainy,mild,hight,false,yes
+rainy,cool,normal,false,yes
+rainy,cool,normal,true,no
+overcast,cool,normal,true,yes
+sunny,mild,hight,false,no
+sunny,cool,normal,true,yes
+rainy,mild,normal,false,yes
+sunny,mild,normal,true,yes
+overcast,mild,hight,true,yes
+overcast,hot,normal,false,yes
+rainy,mild,hight,true,no
+
+
